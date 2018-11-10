@@ -19,6 +19,7 @@ public class Thanksgiving{
 
   public static int Noun(String ml) {
     String[] nouns = new String[ml.length()];
+    for(int i)
     int count=0;
     for(int i=0; i<nouns.length; i++) {
       if(nouns[i].equals("[")) {
