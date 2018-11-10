@@ -3,7 +3,7 @@ public class MadLibs {
   public static void main(String[] args) {
 
     int rand = (int)(8*Math.random());
-    System.out.println(rand);
+    
     switch(rand) {
 
       case 0: Hanukkah.main(args); break;
