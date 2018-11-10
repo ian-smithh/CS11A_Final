@@ -10,7 +10,7 @@ public class MadLibs {
       case = 1; Christmas(); break;
       case = 2; Thanksgiving(); break;
       case = 3; NewYears(); break;
-
+      default; "There is no MadLib"; break;
     }
   }
 }
