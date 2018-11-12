@@ -3,17 +3,17 @@ public class MadLibs {
   public static void main(String[] args) {
 
     int rand = (int)(8*Math.random());
-    
+
     switch(rand) {
 
-      case 0: Hanukkah.main(args); break;
-      case 1: Christmas.main(args); break;
-      case 2: Thanksgiving.main(args); break;
-      case 3: NewYears.main(args); break;
-      case 4: ValentinesDay.main(args); break;
-      case 5: Halloween.main(args); break;
-      case 6: July4th.main(args); break;
-      case 7: Passover.main(args); break;
+      case 0: Hanukkah.main(args); break; //Nick
+      case 1: Christmas.main(args); break; //Ian
+      case 2: Thanksgiving.main(args); break; //Sarah
+      case 3: NewYears.main(args); break; //Rafi
+      case 4: ValentinesDay.main(args); break; //Nick
+      case 5: Halloween.main(args); break; //Rafi
+      case 6: July4th.main(args); break; //Sarah
+      case 7: Passover.main(args); break; //Sarah
       default : System.out.println("There is no MadLib"); break;
     }
 
