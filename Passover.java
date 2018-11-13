@@ -17,7 +17,7 @@ public class Passover{
     String[] mlOccupation = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a occupation (plural): ");
-      mlOccupation[i] = TextIO2.getlnWord();
+      mlOccupation[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlOccupation[i]);
@@ -29,7 +29,7 @@ public class Passover{
      String[] mlPastTenseVerb = new String[count];
      for(int i=0; i<count; i++) {
        System.out.print("Enter a past tense verb: ");
-       mlPastTenseVerb[i] = TextIO2.getlnWord();
+       mlPastTenseVerb[i] = TextIO.getlnWord();
      }
      for(int i=0; i<count; i++) {
        System.out.println (mlPastTenseVerb[i]);
@@ -41,7 +41,7 @@ public class Passover{
      String[] mlVerb = new String[count];
      for(int i=0; i<count; i++) {
        System.out.print("Enter a verb: ");
-       mlVerb[i] = TextIO2.getlnWord();
+       mlVerb[i] = TextIO.getlnWord();
      }
      for(int i=0; i<count; i++) {
        System.out.println (mlVerb[i]);
@@ -53,7 +53,7 @@ public class Passover{
       String[] mladjective = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter an adjective: ");
-        mladjective[i] = TextIO2.getlnWord();
+        mladjective[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mladjective[i]);
@@ -65,7 +65,7 @@ public class Passover{
       String[] mlNumber = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a number: ");
-        mlNumber[i] = TextIO2.getlnWord();
+        mlNumber[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlNumber[i]);
@@ -77,7 +77,7 @@ public class Passover{
       String[] mlnouns = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a noun: ");
-        mlnouns[i] = TextIO2.getlnWord();
+        mlnouns[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlnouns[i]);
@@ -89,7 +89,7 @@ public class Passover{
       String[] mlPlural = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a plural noun: ");
-        mlPlural[i] = TextIO2.getlnWord();
+        mlPlural[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlPlural[i]);
@@ -101,7 +101,7 @@ public class Passover{
       String[] mlLiquid = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a liquid: ");
-        mlLiquid [i] = TextIO2.getlnWord();
+        mlLiquid [i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlLiquid [i]);

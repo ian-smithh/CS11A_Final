@@ -22,7 +22,7 @@ public class Thanksgiving{
     String[] mlnouns = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a noun: ");
-      mlnouns[i] = TextIO2.getlnWord();
+      mlnouns[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlnouns[i]);
@@ -35,7 +35,7 @@ public class Thanksgiving{
     String[] mladjective = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a adjective: ");
-      mladjective[i] = TextIO2.getlnWord();
+      mladjective[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mladjective[i]);
@@ -48,7 +48,7 @@ public class Thanksgiving{
     String[] mlPlural = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a plural noun: ");
-      mlPlural[i] = TextIO2.getlnWord();
+      mlPlural[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlPlural[i]);
@@ -60,7 +60,7 @@ public class Thanksgiving{
     String[] mlyear = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a year: ");
-      mlyear[i] = TextIO2.getlnWord();
+      mlyear[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlyear[i]);
@@ -72,7 +72,7 @@ public class Thanksgiving{
     String[] mlFamous = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a famous persons name: ");
-      mlFamous[i] = TextIO2.getlnWord();
+      mlFamous[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlFamous[i]);
@@ -84,7 +84,7 @@ public class Thanksgiving{
     String[] mlPastTenseVerb = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a past tense verb: ");
-      mlPastTenseVerb[i] = TextIO2.getlnWord();
+      mlPastTenseVerb[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlPastTenseVerb[i]);
@@ -96,7 +96,7 @@ public class Thanksgiving{
     String[] mlFood = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a Food: ");
-      mlFood[i] = TextIO2.getlnWord();
+      mlFood[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlFood[i]);
@@ -108,7 +108,7 @@ public class Thanksgiving{
     String[] mlNumber = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a number: ");
-      mlNumber[i] = TextIO2.getlnWord();
+      mlNumber[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlNumber[i]);
@@ -120,7 +120,7 @@ public class Thanksgiving{
     String[] mlMonth = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a month: ");
-      mlMonth[i] = TextIO2.getlnWord();
+      mlMonth[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlMonth[i]);

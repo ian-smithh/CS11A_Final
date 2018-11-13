@@ -21,7 +21,7 @@ public class July4th{
    String[] mlVerb = new String[count];
    for(int i=0; i<count; i++) {
      System.out.print("Enter a verb: ");
-     mlVerb[i] = TextIO2.getlnWord();
+     mlVerb[i] = TextIO.getlnWord();
    }
    for(int i=0; i<count; i++) {
      System.out.println (mlVerb[i]);
@@ -33,7 +33,7 @@ public class July4th{
     String[] mlPlace = new String[count];
     for(int i=0; i<count; i++) {
       System.out.print("Enter a place: ");
-      mlPlace[i] = TextIO2.getlnWord();
+      mlPlace[i] = TextIO.getlnWord();
     }
     for(int i=0; i<count; i++) {
       System.out.println (mlPlace[i]);
@@ -45,7 +45,7 @@ public class July4th{
      String[] mlAdverb = new String[count];
      for(int i=0; i<count; i++) {
        System.out.print("Enter an adverb: ");
-       mlAdverb[i] = TextIO2.getlnWord();
+       mlAdverb[i] = TextIO.getlnWord();
      }
      for(int i=0; i<count; i++) {
        System.out.println (mlAdverb[i]);
@@ -57,7 +57,7 @@ public class July4th{
       String[] mlAdjective = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter an adjective: ");
-        mlAdjective[i] = TextIO2.getlnWord();
+        mlAdjective[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlAdjective[i]);
@@ -69,7 +69,7 @@ public class July4th{
       String[] mlPlural = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a plural noun: ");
-        mlPlural[i] = TextIO2.getlnWord();
+        mlPlural[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlPlural[i]);
@@ -81,7 +81,7 @@ public class July4th{
       String[] mlAnimal = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter an animal: ");
-        mlAnimal[i] = TextIO2.getlnWord();
+        mlAnimal[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlAnimal[i]);
@@ -93,7 +93,7 @@ public class July4th{
       String[] mlVerbIng = new String[count];
       for(int i=0; i<count; i++) {
         System.out.print("Enter a verb ending in ing: ");
-        mlVerbIng[i] = TextIO2.getlnWord();
+        mlVerbIng[i] = TextIO.getlnWord();
       }
       for(int i=0; i<count; i++) {
         System.out.println (mlVerbIng[i]);
@@ -105,7 +105,7 @@ public class July4th{
        String[] mlFood = new String[count];
        for(int i=0; i<count; i++) {
          System.out.print("Enter a Food: ");
-         mlFood[i] = TextIO2.getlnWord();
+         mlFood[i] = TextIO.getlnWord();
        }
        for(int i=0; i<count; i++) {
          System.out.println (mlFood[i]);
@@ -117,7 +117,7 @@ public class July4th{
        String[] mlBeverage = new String[count];
        for(int i=0; i<count; i++) {
          System.out.print("Enter a Beverage: ");
-         mlBeverage[i] = TextIO2.getlnWord();
+         mlBeverage[i] = TextIO.getlnWord();
        }
        for(int i=0; i<count; i++) {
          System.out.println (mlBeverage[i]);
@@ -129,7 +129,7 @@ public class July4th{
        String[] mlnouns = new String[count];
        for(int i=0; i<count; i++) {
          System.out.print("Enter a noun: ");
-         mlnouns[i] = TextIO2.getlnWord();
+         mlnouns[i] = TextIO.getlnWord();
        }
        for(int i=0; i<count; i++) {
          System.out.println (mlnouns[i]);
