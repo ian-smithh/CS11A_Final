@@ -14,6 +14,7 @@ public class MadLibs {
       case 5: Halloween.main(args); break; //Rafi
       case 6: July4th.main(args); break; //Sarah
       case 7: Passover.main(args); break; //Sarah
+      case 8: callAPI.main(args); break; //Ian
       default : System.out.println("There is no MadLib"); break;
     }
 
