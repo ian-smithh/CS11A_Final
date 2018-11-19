@@ -11,7 +11,7 @@ public class callAPI{
             min = max;
             max = temp;
         }
-        URL api = new URL("http://madlibz.herokuapp.com/api/random?minlength="+min+"&"+max+"length=100");
+        URL api = new URL("http://madlibz.herokuapp.com/api/random?minlength="+min+"&maxlength="+max);
         BufferedReader in = new BufferedReader(new InputStreamReader(api.openStream()));
         BufferedWriter writer = new BufferedWriter(new FileWriter("apiOut.txt"));
         PrintWriter formatter = new PrintWriter(writer);
@@ -24,5 +24,14 @@ public class callAPI{
         in.close();
         writer.close();
         formatter.close();
+        input("apiOut.txt");
     }
+
+    public static void input(String fileName) throws FileNotFoundException{
+        Scanner fileReader = new Scanner(new File(fileName));
+        while(!fileReader.hasnext("]")){
+            
+        }
+    }
+    
 }
