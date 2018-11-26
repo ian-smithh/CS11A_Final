@@ -24,14 +24,25 @@ public class callAPI{
         in.close();
         writer.close();
         formatter.close();
-        input("apiOut.txt");
+        getInput("apiOut.txt");
     }
 
-    public static void input(String fileName) throws FileNotFoundException{
-        Scanner fileReader = new Scanner(new File(fileName));
-        while(!fileReader.hasnext("]")){
-            
+    public static void getInput(String fileName) throws FileNotFoundException{
+        //Read the "blanks" section and output
+        Scanner readFile = new Scanner(fileName);
+        while(readFile.hasNext()){
+            if(readFile.next().equals("]")){
+                break;
+            }
+            else{
+                readFile.next();
+            }
         }
+        //Store input in an array
+        //Print "value" section with inputs from array
+        //???
+        //Profit
+        readFile.close();
     }
     
 }
