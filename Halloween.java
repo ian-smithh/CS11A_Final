@@ -1,4 +1,3 @@
-package MadLibs;
 /**
  * Returns a Halloween-themed Madlib based on user input.
  */

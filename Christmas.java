@@ -1,4 +1,3 @@
-package MadLibs;
 /**
  * Returns a Christmas-themed Madlib based on user input
  * @author Ian Smith
