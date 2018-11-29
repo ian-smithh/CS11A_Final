@@ -13,75 +13,85 @@ public class NewYears {
   public static void Noun(String ny) {
     int count=0;
     count = ny.split("\\[noun\\]").length-1;
+    String output = "";
     String[] nynouns = new String[count];
-    String word = "";
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[noun\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter a noun: ");
-      word = TextIO.getlnWord();
-      nynouns[i]= ny.replaceFirst("\\[noun\\]", word);
+      nynouns[i] = TextIO.getlnWord();
+      output+= middle[i] + nynouns[i];
     }
-    for(int i=0; i<count; i++) {
-     System.out.println (nynouns[i]);
-    }
+     System.out.println(output);
   }
   public static void Adjective(String ny) {
     int count=0;
     count = ny.split("\\[adjective\\]").length-1;
+    String output = "";
     String[] nyadjective = new String[count];
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[adjective\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter an adjective: ");
       nyadjective[i] = TextIO.getlnWord();
+      output+= middle[i] + nyadjective[i];
     }
-    for(int i=0; i<count; i++) {
-      System.out.println (nyadjective[i]);
-    }
+     System.out.println(output);
   }
   public static void Verb(String ny) {
     int count=0;
     count = ny.split("\\[verb\\]").length-1;
-    String[] nyadjective = new String[count];
+    String output = "";
+    String[] nyverb = new String[count];
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[verb\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter a verb: ");
-      nyadjective[i] = TextIO.getlnWord();
+      nyverb[i] = TextIO.getlnWord();
+      output+= middle[i] + nyverb[i];
     }
-    for(int i=0; i<count; i++) {
-      System.out.println (nyadjective[i]);
-    }
+     System.out.println(output);
   }
   public static void Adverb(String ny) {
     int count=0;
     count = ny.split("\\[adverb\\]").length-1;
-    String[] nyadjective = new String[count];
+    String output = "";
+    String[] nyadverb = new String[count];
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[adverb\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter an adverb: ");
-      nyadjective[i] = TextIO.getlnWord();
+      nyadverb[i] = TextIO.getlnWord();
+      output+= middle[i] + nyadverb[i];
     }
-    for(int i=0; i<count; i++) {
-      System.out.println (nyadjective[i]);
-    }
+     System.out.println(output);
   }
   public static void Plural(String ny) {
     int count=0;
     count = ny.split("\\[plural\\]").length-1;
-    String[] nyPlural = new String[count];
+    String output = "";
+    String[] nyplural = new String[count];
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[plural\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter a plural noun: ");
-      nyPlural[i] = TextIO.getlnWord();
+      nyplural[i] = TextIO.getlnWord();
+      output+= middle[i] + nyplural[i];
     }
-    for(int i=0; i<count; i++) {
-      System.out.println (nyPlural[i]);
-    }
+     System.out.println(output);
   }
   public static void Number(String ny) {
     int count=0;
     count = ny.split("\\[number\\]").length-1;
-    String[] nyNumber = new String[count];
+    String output = "";
+    String[] nynumber = new String[count];
+    String[] middle = new String[ny.length()];
+    middle = ny.split("\\[number\\]");
     for(int i=0; i<count; i++) {
       System.out.print("Enter a number: ");
-      nyNumber[i] = TextIO.getlnWord();
+      nynumber[i] = TextIO.getlnWord();
+      output+= middle[i] + nynumber[i];
     }
-    for(int i=0; i<count; i++) {
-      System.out.println (nyNumber[i]);
-    }
+     System.out.println(output);
   }
 }
