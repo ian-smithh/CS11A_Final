@@ -1,7 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("The Emperor Protects.");
-        System.out.println("Welcome to MadLibs!");
+        System.out.println("Pray to RNJesus for a good roll!");
         MadLibs.main(args);
     }
 }
