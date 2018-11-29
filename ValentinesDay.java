@@ -1,3 +1,4 @@
+package MadLibs;
 /**
  * Returns a Valentines Day-themed Madlib based on user input.
  * 

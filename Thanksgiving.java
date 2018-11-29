@@ -1,3 +1,4 @@
+package MadLibs;
 public class Thanksgiving{
   public static void main(String[] args){
 

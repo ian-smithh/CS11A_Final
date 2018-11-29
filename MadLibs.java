@@ -3,6 +3,7 @@
  * 
  * @author CERN (Group 13)
  */
+package MadLibs;
 public class MadLibs {
   /**
    * Runs a random number generator and calls a Madlib class based on the result.

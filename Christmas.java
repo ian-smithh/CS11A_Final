@@ -1,8 +1,8 @@
+package MadLibs;
 /**
  * Returns a Christmas-themed Madlib based on user input
  * @author Ian Smith
  */
-
 public class Christmas {
     /**
      * Stores the Madlib as a single string. Calls the method for each part of
