@@ -1,0 +1,9 @@
+The following classes are incomplete according to the New Years template:
+
+Christmas []
+Halloween []
+Hanukkah []
+July 4th []
+Passover []
+Thanksgiving []
+Valentines []
