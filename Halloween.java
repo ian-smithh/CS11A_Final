@@ -7,7 +7,7 @@ public class Halloween {
    * speech. For each call of a method (Noun, Adjective, etc.), the string result
    * becomes the result of the call of the previous method and is passed to the
    * next method.
-   * 
+   *
    * @param args Main method does not accept input from args.
    */
 
@@ -25,107 +25,131 @@ public class Halloween {
     System.out.println(result);
   }
 
-  public static void Noun(String hw) {
+  public static String Noun(String hw) {
     int count = 0;
     count = hw.split("\\[noun\\]").length - 1;
+    String output = "";
     String[] hwnouns = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[noun\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a noun: ");
       hwnouns[i] = TextIO.getlnWord();
+      output += middle[i] + hwnouns[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwnouns[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Plural(String hw) {
+  public static String Plural(String hw) {
     int count = 0;
     count = hw.split("\\[plural\\]").length - 1;
-    String[] hwPlural = new String[count];
+    String output = "";
+    String[] hwplural = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[plural\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a plural noun: ");
-      hwPlural[i] = TextIO.getlnWord();
+      hwplural[i] = TextIO.getlnWord();
+      output += middle[i] + hwplural[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwPlural[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Adjective(String hw) {
+  public static String Adjective(String hw) {
     int count = 0;
     count = hw.split("\\[adjective\\]").length - 1;
-    String[] hwadjective = new String[count];
+    String output = "";
+    String[] hwadjectives = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[adjective\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter an adjective: ");
-      hwadjective[i] = TextIO.getlnWord();
+      hwadjectives[i] = TextIO.getlnWord();
+      output += middle[i] + hwadjectives[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwadjective[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Verb(String hw) {
+  public static String Verb(String hw) {
     int count = 0;
     count = hw.split("\\[verb\\]").length - 1;
-    String[] hwadjective = new String[count];
+    String output = "";
+    String[] hwverbs = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[verb\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a verb: ");
-      hwadjective[i] = TextIO.getlnWord();
+      hwverbs[i] = TextIO.getlnWord();
+      output += middle[i] + hwverbs[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwadjective[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Name(String hw) {
+  public static String Name(String hw) {
     int count = 0;
     count = hw.split("\\[name\\]").length - 1;
-    String[] hwadjective = new String[count];
+    String output = "";
+    String[] hwnames = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[name\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a name: ");
-      hwadjective[i] = TextIO.getlnWord();
+      hwnames[i] = TextIO.getlnWord();
+      output += middle[i] + hwnames[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwadjective[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Color(String hw) {
+  public static String Color(String hw) {
     int count = 0;
     count = hw.split("\\[color\\]").length - 1;
-    String[] hwPlural = new String[count];
+    String output = "";
+    String[] hwcolors = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[color\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a color: ");
-      hwPlural[i] = TextIO.getlnWord();
+      hwcolors[i] = TextIO.getlnWord();
+      output += middle[i] + hwcolors[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwPlural[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void Animal(String hw) {
+  public static String Animal(String hw) {
     int count = 0;
     count = hw.split("\\[animal\\]").length - 1;
-    String[] hwNumber = new String[count];
+    String output = "";
+    String[] hwanimal = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[animal\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter an animal: ");
-      hwNumber[i] = TextIO.getlnWord();
+      hwanimal[i] = TextIO.getlnWord();
+      output += middle[i] + hwanimal[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwNumber[i]);
-    }
+    output += middle[count];
+    return output;
   }
 
-  public static void pluralAnimal(String hw) {
+  public static String pluralAnimal(String hw) {
     int count = 0;
     count = hw.split("\\[animals\\]").length - 1;
-    String[] hwNumber = new String[count];
+    String output = "";
+    String[] hwanimals = new String[count];
+    String[] middle = new String[hw.length()];
+    middle = hw.split("\\[animals\\]");
     for (int i = 0; i < count; i++) {
-      System.out.print("Enter a plural form of an animal: ");
-      hwNumber[i] = TextIO.getlnWord();
+      System.out.print("Enter a plural of an animal: ");
+      hwanimals[i] = TextIO.getlnWord();
+      output += middle[i] + hwanimals[i];
     }
-    for (int i = 0; i < count; i++) {
-      System.out.println(hwNumber[i]);
-    }
+    output += middle[count];
+    return output;
   }
 }
