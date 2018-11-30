@@ -1,9 +1,12 @@
 The following classes are incomplete according to the New Years template:
 
-Christmas []
+Christmas [x]
 Halloween []
 Hanukkah []
 July 4th []
 Passover []
 Thanksgiving []
-Valentines []
+Valentines [x]
+
+Individual:
+Ian will do JavaDoc since the API crashed and burned
