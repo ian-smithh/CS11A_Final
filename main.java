@@ -1,4 +1,3 @@
-package MadLibs;
 /**
  * Introduces the user to the program and calls the MadLibs method.
  */

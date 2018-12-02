@@ -1,4 +1,3 @@
-package MadLibs;
 public class Thanksgiving{
   public static void main(String[] args){
     System.out.println("This is a Madlib about Thanksgiving.");

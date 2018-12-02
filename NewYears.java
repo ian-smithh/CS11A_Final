@@ -1,4 +1,3 @@
-package MadLibs;
 /**
  * Returns a New Years-themed Madlib based on user input.
  *
