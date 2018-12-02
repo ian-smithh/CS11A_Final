@@ -1,7 +1,7 @@
 package MadLibs;
 /**
  * Returns a New Years-themed Madlib based on user input.
- * 
+ *
  * @author Rafi Rubenstein
  */
 public class NewYears {
@@ -10,7 +10,7 @@ public class NewYears {
    * speech. For each call of a method (Noun, Adjective, etc.), the string result
    * becomes the result of the call of the previous method and is passed to the
    * next method.
-   * 
+   *
    * @param args Main method does not accept input from args.
    */
   public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [noun] placeholders replaced with the
    * inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [noun] placeholders replaced with the
    *         user input.
@@ -52,7 +52,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [adjective] placeholders replaced with
    * the inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [adjective] placeholders replaced
    *         with the user input.
@@ -76,7 +76,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [verb] placeholders replaced with the
    * inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [verb] placeholders replaced with the
    *         user input.
@@ -100,7 +100,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [adverb] placeholders replaced with the
    * inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [adverb] placeholders replaced with
    *         the user input.
@@ -124,7 +124,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [plural] placeholders replaced with the
    * inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [plural] placeholders replaced with
    *         the user input.
@@ -148,7 +148,7 @@ public class NewYears {
   /**
    * Returns the inputted string with the [number] placeholders replaced with the
    * inputted part of speech.
-   * 
+   *
    * @param ny The entire Madlib.
    * @return String ny with all instances of [number] placeholders replaced with
    *         the user input.
