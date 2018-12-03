@@ -11,15 +11,14 @@ public class Thanksgiving{
     result = Food(result); //2
     result = Number(result); //1
     result = Month(result); //1
-
   }
 
 
   public static String Noun(String tg) {
     int count=0;
-    count = ml.split("\\[nouns\\]").length-1;
+    count = tg.split("\\[nouns\\]").length-1;
     String output = "";
-    String[] mlnouns = new String[count];
+    String[] tgnouns = new String[count];
     String[] middle = new String[tg.length()];
     middle = tg.split("\\[nouns\\]");
     for(int i=0; i<count; i++) {
@@ -30,7 +29,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
 
   public static String Adjective(String tg) {
     int count=0;
@@ -47,7 +45,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
 
   public static String Plural(String tg) {
     int count = 0;
@@ -64,7 +61,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String Year(String tg) {
     int count = 0;
     count = tg.split("\\[year\\]").length - 1;
@@ -80,7 +76,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String Famous(String tg) {
     int count = 0;
     count = tg.split("\\[famous person\\]").length - 1;
@@ -96,7 +91,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String PastTenseVerb(String tg) {
     int count = 0;
     count = tg.split("\\[verb, past tense\\]").length - 1;
@@ -112,7 +106,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String Food(String tg) {
     int count = 0;
     count = tg.split("\\[food\\]").length - 1;
@@ -128,7 +121,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String Number(String tg) {
     int count = 0;
     count = tg.split("\\[number\\]").length - 1;
@@ -144,7 +136,6 @@ public class Thanksgiving{
     output += middle[count];
     return output;
     }
-  }
   public static String Month(String tg) {
     int count = 0;
     count = tg.split("\\[month\\]").length - 1;
@@ -159,6 +150,5 @@ public class Thanksgiving{
     }
     output += middle[count];
     return output;
-    }
   }
 }
