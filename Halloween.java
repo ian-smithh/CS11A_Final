@@ -24,6 +24,14 @@ public class Halloween {
     result = pluralAnimal(result);
     System.out.println(result);
   }
+  /**
+   * Returns the inputted string with the [noun] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [noun] placeholders replaced with
+   *         the user input.
+  */
 
   public static String Noun(String hw) {
     int count = 0;
@@ -40,6 +48,14 @@ public class Halloween {
     output += middle[count];
     return output;
   }
+  /**
+   * Returns the inputted string with the [plural] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [plural] placeholders replaced with
+   *         the user input.
+  */
 
   public static String Plural(String hw) {
     int count = 0;
@@ -56,6 +72,14 @@ public class Halloween {
     output += middle[count];
     return output;
   }
+  /**
+   * Returns the inputted string with the [adjective] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [adjective] placeholders replaced with
+   *         the user input.
+  */
 
   public static String Adjective(String hw) {
     int count = 0;
@@ -72,6 +96,14 @@ public class Halloween {
     output += middle[count];
     return output;
   }
+  /**
+   * Returns the inputted string with the [verb] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [verb] placeholders replaced with
+   *         the user input.
+  */
 
   public static String Verb(String hw) {
     int count = 0;
@@ -88,6 +120,14 @@ public class Halloween {
     output += middle[count];
     return output;
   }
+  /**
+   * Returns the inputted string with the [name] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [name] placeholders replaced with
+   *         the user input.
+  */
 
   public static String Name(String hw) {
     int count = 0;
@@ -105,6 +145,15 @@ public class Halloween {
     return output;
   }
 
+  /**
+   * Returns the inputted string with the [color] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [color] placeholders replaced with
+   *         the user input.
+  */
+
   public static String Color(String hw) {
     int count = 0;
     count = hw.split("\\[color\\]").length - 1;
@@ -121,6 +170,15 @@ public class Halloween {
     return output;
   }
 
+  /**
+   * Returns the inputted string with the [animal] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [animal] placeholders replaced with
+   *         the user input.
+  */
+
   public static String Animal(String hw) {
     int count = 0;
     count = hw.split("\\[animal\\]").length - 1;
@@ -136,6 +194,14 @@ public class Halloween {
     output += middle[count];
     return output;
   }
+  /**
+   * Returns the inputted string with the [animals] placeholders replaced with the
+   * inputted part of speech.
+   *
+   * @param hw The entire Madlib.
+   * @return String hw with all instances of [animals] placeholders replaced with
+   *         the user input.
+  */
 
   public static String pluralAnimal(String hw) {
     int count = 0;
