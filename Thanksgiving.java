@@ -49,11 +49,11 @@ public class Thanksgiving{
 
   public static String Plural(String tg) {
     int count = 0;
-    count = tg.split("\\[plural\\]").length - 1;
+    count = tg.split("\\[Plural\\]").length - 1;
     String output = "";
     String[] tgplural = new String[count];
     String[] middle = new String[tg.length()];
-    middle = tg.split("\\[plural\\]");
+    middle = tg.split("\\[Plural\\]");
     for (int i = 0; i < count; i++) {
       System.out.print("Enter a plural noun: ");
       tgplural[i] = TextIO.getlnWord();
