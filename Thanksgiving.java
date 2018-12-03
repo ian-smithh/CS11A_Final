@@ -11,6 +11,7 @@ public class Thanksgiving{
     result = Food(result); //2
     result = Number(result); //1
     result = Month(result); //1
+    System.out.println(result);
   }
 
 
