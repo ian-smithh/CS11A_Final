@@ -14,7 +14,7 @@ public class July4th {
    */
   public static void main(String[] args) {
     System.out.println("This is a Madlib about July 4th.");
-    String july = "Every July 4th my family and I [verb] with a picnic at the [place]. \nThe [place] is [adverb] [adjective], with the tall, lafy [Plural], [animal] [Ving] and a [Ving] trail. \nWe [verb] lots of [adjective] food and drinks, like [food], [food], and [beverage]. \nMy parents like [verb] [food] over a hot [noun] and we put mustard and [Plural] on top. \nAfter we eat, we [verb] games, like [verb] the [noun], [verb], and [adjective] [noun][verb].\n";
+    String july = "Every July 4th my family and I [verb] with a picnic at the [place]. \nThe [place] is [adverb] [adjective], with the tall, lafy [Plural], [animal] [Ving] and a [Ving] trail. \nWe [verb] lots of [adjective] food and drinks, like [food], [food], and [beverage]. \nMy parents like [verb] [food] over a hot [noun] and we put mustard and [Plural] on top. \nAfter we eat, we [verb] games, like [verb] the [noun], [verb], and [adjective] [noun] [verb].\n";
     String result = Verb(july); // 7
     result = Place(result); // 2
     result = Adverb(result); // 1
@@ -101,11 +101,11 @@ public class July4th {
   }
 
   /**
-   * Returns the inputted string with the [adverb] placeholders replaced with the
+   * Returns the inputted string with the [adjective] placeholders replaced with the
    * inputted part of speech.
    *
    * @param july The entire Madlib.
-   * @return String july with all instances of [adverb] placeholders replaced with
+   * @return String july with all instances of [adjective] placeholders replaced with
    *         the user input.
    */
   public static String Adjective(String july) {
