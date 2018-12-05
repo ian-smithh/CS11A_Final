@@ -14,7 +14,7 @@ public class Hanukkah {
    */
   public static void main(String[] args) {
     System.out.println("This is a madlib about Hanukkah.");
-    String hk = "What is the secret to making [adjective] latkes?\nFollow this [adjective] recipe to find out!\nPeel and [adverb] grate the potatoes.\nTransfer them into cold water, then allow them to [verb] until they are [adjective].\nIn a medium-sized [noun], stir the potatoes, onions, [plural], and [noun] together.\nPour some [liquid] into a large skillet over high heat.\nMake sure it's good and [adjective] before you add the potatoes because you don't want them to [verb] while cooking.\nPress down on them to form a/an [noun] about 1/2 an inch thick. Cook them until one side is [color] and then flip them over. Finally, let them drain on paper [plural] until and serve [adjective]!";
+    String hk = "What is the secret to making [adjective] latkes?\nFollow this [adjective] recipe to find out!\nPeel and [adverb] grate the potatoes.\nTransfer them into cold water, then allow them to [verb] until they are [adjective].\nIn a medium-sized [noun], stir the potatoes, onions, [plural], and [noun] together.\nPour some [liquid] into a large skillet over high heat.\nMake sure it's good and [adjective] before you add the potatoes because you don't want them to [verb] while cooking.\nPress down on them to form a/an [noun] about 1/2 an inch thick. Cook them until one side is [color] and then flip them over. Finally, let them drain on paper [plural] until ready and serve [adjective]!";
     String result = adjective(hk);
     result = adverb(result);
     result = verb(result);
