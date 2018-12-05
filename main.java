@@ -8,8 +8,9 @@ public class main{
      */
     public static void main(String[] args) {
         System.out.println("Welcome to Mad Libs!");
-        System.out.println("A mad lib will be generated, and you will be prompted to enter the appropriate parts of speech.");
+        System.out.println("A mad lib will be randomly generated, and you will be prompted to enter the appropriate parts of speech.");
         System.out.println("After completing all of it, the entire mad lib with your inputs will be shown.");
+        System.out.println("The possible Mad Lib themes are: Christmas, Halloween, Hanukkah, July 4th, New Years, Passover, Thanksgiving, and Valentine's Day.");
         MadLibs.main(args);
         boolean consent = true;
         while(consent){
