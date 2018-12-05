@@ -14,7 +14,7 @@ public class main{
         MadLibs.main(args);
         boolean consent = true;
         while(consent){
-            System.out.println("Another? (yes or no)");
+            System.out.print("Another? (Yes or no)");
             consent = TextIO.getBoolean();
             MadLibs.main(args);
         }
