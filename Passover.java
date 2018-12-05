@@ -14,7 +14,7 @@ public class Passover {
   */
   public static void main(String[] args) {
     System.out.println("This is a Madlib about Passover.");
-    String passover = "Every year we celebrate Passover to remeber when our ancesters were \n[occupation] and how they [verb, past tense] to freedom. \nMoses came to Pharaoh and said, 'Let me people [verb]!' but the Pharaoh refused. \nThis made G-d [adjective], so he unleased [number] plauges to change the Pharaoh's [noun]. \nFirst, he turned all the water into [liquid]. That did not work. So G-d tried other plauges like [Plural], \nstorms, and darkness. [number] plagues later, the Pharaoh still wouldn't let the [Plural] go. \nThen came the [adjective] plague: one morning all the [adjective] Egyptian children suddenly died. \nThe Pharaoh finally gave up and agreed to [verb] the Jews.\n";
+    String passover = "Every year we celebrate Passover to remember when our ancesters were \n[occupation] and how they [verb, past tense] for freedom. \nMoses came to Pharaoh and said, 'Let my people [verb]!' but the Pharaoh refused. \nThis made G-d [adjective], so he unleashed [number] plauges to change the Pharaoh's [noun]. \nFirst, he turned all the water into [liquid]. That did not work. So G-d tried other plauges like [Plural], \nstorms, and darkness. [number] plagues later, the Pharaoh still wouldn't let the [Plural] go. \nThen came the [adjective] plague: one morning all the [adjective] Egyptian children suddenly died. \nThe Pharaoh finally gave up and agreed to [verb] the Jews.\n";
     String result = Occupation(passover); // 1
     result = PastTenseVerb(result); // 1
     result = Verb(result); // 2
@@ -25,7 +25,7 @@ public class Passover {
     result = Liquid(result); // 1
     System.out.print(result);
   }
-  
+
   /**
   * Returns the inputted string with the [occupation] placeholders replaced with
   * the inputted part of speech.
@@ -49,7 +49,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [verb, past tense] placeholders replaced
   * with the inputted part of speech.
@@ -73,7 +73,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [verb] placeholders replaced with the
   * inputted part of speech.
@@ -97,7 +97,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [adjective] placeholders replaced with
   * the inputted part of speech.
@@ -121,7 +121,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [number] placeholders replaced with the
   * inputted part of speech.
@@ -145,7 +145,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [noun] placeholders replaced with the
   * inputted part of speech.
@@ -169,7 +169,7 @@ public class Passover {
     output += middle[count];
     return output;
   }
-  
+
   /**
   * Returns the inputted string with the [plural] placeholders replaced with
   * the inputted part of speech.
