@@ -16,7 +16,11 @@ public class main{
         while(consent){
             System.out.print("Another? (Yes or no)");
             consent = TextIO.getBoolean();
-            MadLibs.main(args);
+            if(consent==false){
+              break;
+            }
+              MadLibs.main(args);
         }
-    }
-}
+
+      }
+  }
