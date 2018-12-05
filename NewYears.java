@@ -1,4 +1,3 @@
-package MadLibs;
 /**
  * Returns a New Years-themed Madlib based on user input.
  *
@@ -144,7 +143,6 @@ public class NewYears {
     output += middle[count];
     return output;
   }
-
 
   /**
    * Returns the inputted string with the [number] placeholders replaced with the
